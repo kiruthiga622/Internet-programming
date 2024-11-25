@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Class Timetable</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #2e6da4;
         }
         table {
             width: 100%;
@@ -19,59 +15,62 @@
         }
         th, td {
             padding: 10px;
-            border: 1px solid #ccc;
+            border: 1px solid #000;
+            text-align: center;
         }
         th {
-            background-color: #f4f4f4;
-        }
-        ul {
-            list-style-type: square;
+            background-color: #f2f2f2;
         }
     </style>
 </head>
 <body>
-    <h1>Jane Doe</h1>
-    <p>Email: <a href="mailto:jane.doe@example.com">jane.doe@example.com</a> | Phone: 123-456-7890</p>
-    
-    <h2>Objective</h2>
-    <p>To obtain a challenging position in a reputed organization where I can utilize my skills and experience to contribute to the company's success.</p>
-    
-    <h2>Education</h2>
-    <table>
+    <h1>Class Timetable</h1>
+    <table border="1">
         <tr>
-            <th>Degree</th>
-            <th>Institution</th>
-            <th>Year</th>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
         </tr>
         <tr>
-            <td>Bachelor of Science in Computer Science</td>
-            <td>ABC University</td>
-            <td>2022</td>
+            <td>09:00 - 10:00</td>
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td rowspan="2">Chemistry</td>
+            <td>Biology</td>
+            <td>History</td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td>English</td>
+            <td>Geography</td>
+            <td>Physical Education</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td colspan="2">Break</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Geography</td>
+        </tr>
+        <tr>
+            <td>12:00 - 01:00</td>
+            <td>Physics</td>
+            <td>Biology</td>
+            <td>History</td>
+            <td>Computer Science</td>
+            <td rowspan="2">Chemistry</td>
+        </tr>
+        <tr>
+            <td>01:00 - 02:00</td>
+            <td>Physical Education</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Geography</td>
         </tr>
     </table>
-    
-    <h2>Work Experience</h2>
-    <table>
-        <tr>
-            <th>Position</th>
-            <th>Company</th>
-            <th>Year</th>
-        </tr>
-        <tr>
-            <td>Software Developer</td>
-            <td>XYZ Corp</td>
-            <td>2022-2024</td>
-        </tr>
-    </table>
-    
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python, Java</li>
-        <li>Database Management</li>
-    </ul>
-    
-    <h2>References</h2>
-    <p>Available upon request</p>
 </body>
 </html>
