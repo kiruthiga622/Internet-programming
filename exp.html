@@ -1,76 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Timetable</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 10px;
-            border: 1px solid #000;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
+<html>
 <body>
-    <h1>Class Timetable</h1>
-    <table border="1">
-        <tr>
-            <th>Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-        </tr>
-        <tr>
-            <td>09:00 - 10:00</td>
-            <td>Mathematics</td>
-            <td>Physics</td>
-            <td rowspan="2">Chemistry</td>
-            <td>Biology</td>
-            <td>History</td>
-        </tr>
-        <tr>
-            <td>10:00 - 11:00</td>
-            <td>English</td>
-            <td>Geography</td>
-            <td>Physical Education</td>
-            <td>Computer Science</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:00</td>
-            <td colspan="2">Break</td>
-            <td>Mathematics</td>
-            <td>English</td>
-            <td>Geography</td>
-        </tr>
-        <tr>
-            <td>12:00 - 01:00</td>
-            <td>Physics</td>
-            <td>Biology</td>
-            <td>History</td>
-            <td>Computer Science</td>
-            <td rowspan="2">Chemistry</td>
-        </tr>
-        <tr>
-            <td>01:00 - 02:00</td>
-            <td>Physical Education</td>
-            <td>Mathematics</td>
-            <td>English</td>
-            <td>Geography</td>
-        </tr>
-    </table>
+
+<h2>Image Maps</h2>
+<img src="india.jpg" alt="map" usemap="#rec">
+
+<map name="rec">
+<area shape="poly" coords="418,887,286,960,317,1075,398, 1004" alt="polygon1" title="Tamil Nadu" href="https://en.wikipedia.org/wiki/Tamil_Nadu">
+<area shape="poly" coords="209, 279,338, 410,291, 443,308, 495,246, 471,220, 536,114, 475,80, 379" alt="polygon2" title="Rajasthan" href="https://en.wikipedia.org/wiki/Rajasthan">
+<area shape="circle" coords="376, 737,55" alt="circle" title="Telengana" href="https://en.wikipedia.org/wiki/Telangana">
+<area shape="rect" coords="536, 403,667, 474" alt="rectangle" title="Bihar" href="https://en.wikipedia.org/wiki/Bihar">
+
+</map>
 </body>
 </html>
